@@ -1,0 +1,36 @@
+
+.content {min-height:450px;}
+/*Pagination*/
+.uk-pagination {
+	float:right;
+}
+.uk-pagination li a { 
+	padding:4px 8px;
+	border:1px solid red;
+	margin:-5px;
+	font-size: larger;
+    
+}
+.uk-pagination li a:hover{
+	text-decoration:none;
+	background-color:#fff;
+	color:red;
+}
+
+.uk-pagination li a.current_page{
+	background-color:red;
+	color:#fff;
+}
+.contentloading{
+	margin-left:300px;
+}
+@media screen and (max-width:680px){
+
+	.contentloading{
+		margin-left:100px;
+    }
+    .tambah{
+        padding-top: 10px;
+    }
+    
+}
